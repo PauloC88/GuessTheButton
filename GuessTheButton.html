@@ -36,8 +36,8 @@
   </body>
 
   <script>
+    let winningId = Math.floor(Math.random() * 3 + 1);
     function random(clicked_id) {
-      let winningId = Math.floor(Math.random() * 3 + 1);
       if (winningId.toString() === clicked_id) {
         alert("Congratulations!!! You won!!!");
         window.location.replace("Congratulations.html");
